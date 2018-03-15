@@ -7,6 +7,8 @@ import globalizeLocalizer from './localizers/globalize'
 import move from './utils/move'
 import { views, navigate } from './utils/constants'
 
+console.log('FrontBand Calendar') // eslint-disable-line
+
 Object.assign(Calendar, {
   setLocalizer,
   globalizeLocalizer,
